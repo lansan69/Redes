@@ -20,22 +20,20 @@ jobs:
 
       - name: Compile all LaTeX files in subfolders
         run: |
-          for texfile in $(find practicas/reportes -mindepth 1 -maxdepth 1 -type d); do
-            # Find the .tex file inside this folder
-            file=$(find "$texfile" -maxdepth 1 -name "*.tex")
+          for texfolder in $(find practicas/reportes -mindepth 1 -maxdepth 1 -type d); do
+            file=$(find "$texfolder" -maxdepth 1 -name "*.tex")
             if [ -n "$file" ]; then
               echo "Compiling $file..."
               latexmk -pdf -interaction=nonstopmode -halt-on-error "$file"
             else
-              echo "No .tex file found in $texfile"
+              echo "No .tex file found in $texfolder"
             fi
           done
-
 
       - name: Commit PDFs
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add practicas/reportes/*.pdf
-          git commit -m "Auto update PDFs"
+          git add practicas/reportes/**/*.pdf
+          git commit -m "Auto update PDFs" || echo "No changes to commit"
           git push
