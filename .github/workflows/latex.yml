@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-     - name: Install LaTeX
+      - name: Install LaTeX
         run: |
           sudo apt-get update
           sudo apt-get install -y \
@@ -24,7 +24,6 @@ jobs:
             texlive-fonts-recommended \
             texlive-luatex \
             latexmk
-
 
       - name: Compile all LaTeX files in subfolders
         run: |
@@ -42,11 +41,9 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          # Add only PDFs that have changed
           git add -u practicas/reportes/**/*.pdf
           if git diff --cached --quiet; then
             echo "No PDF changes detected, skipping commit."
           else
             git commit -m "Auto update PDFs"
             git push
-          fi
