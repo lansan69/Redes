@@ -1,0 +1,35 @@
+name: Build and Commit PDFs
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install LaTeX
+        run: sudo apt-get update && sudo apt-get install -y texlive-latex-extra latexmk
+
+      - name: Compile all LaTeX files in practicas/reportes
+        run: |
+          cd practicas/reportes
+          for file in *.tex; do
+            echo "Compiling $file..."
+            latexmk -pdf -interaction=nonstopmode -halt-on-error "$file"
+          done
+
+      - name: Commit PDFs
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add practicas/reportes/*.pdf
+          git commit -m "Auto update PDFs"
+          git push
