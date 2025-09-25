@@ -18,13 +18,19 @@ jobs:
       - name: Install LaTeX
         run: sudo apt-get update && sudo apt-get install -y texlive-latex-extra latexmk
 
-      - name: Compile all LaTeX files in practicas/reportes
+      - name: Compile all LaTeX files in subfolders
         run: |
-          cd practicas/reportes
-          for file in *.tex; do
-            echo "Compiling $file..."
-            latexmk -pdf -interaction=nonstopmode -halt-on-error "$file"
+          for texfile in $(find practicas/reportes -mindepth 1 -maxdepth 1 -type d); do
+            # Find the .tex file inside this folder
+            file=$(find "$texfile" -maxdepth 1 -name "*.tex")
+            if [ -n "$file" ]; then
+              echo "Compiling $file..."
+              latexmk -pdf -interaction=nonstopmode -halt-on-error "$file"
+            else
+              echo "No .tex file found in $texfile"
+            fi
           done
+
 
       - name: Commit PDFs
         run: |
