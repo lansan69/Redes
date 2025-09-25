@@ -1,0 +1,77 @@
+\documentclass{article}
+\usepackage{graphicx}
+
+\begin{document}
+\section{Getting started with the Cisco configuration}
+
+\centering
+{ \Large \textbf{Sistemas operativos}}
+\vspace{1cm}
+
+\emph{Cisco IOS (Internetwork Operating System): A family of proprietary network operating systems developed by Cisco Systems. }
+\vspace{1cm}
+
+Los SO de nuestros dispositivos intermedios proporcionan opciones para
+\begin{itemize}
+    \item Configurar interfaces
+    \item Habilitar funciones de enrutamiento
+\end{itemize}
+\vspace{1cm}
+
+Todos los dispositivos de red viene con un IOS predetermiado
+\vspace{1cm}
+
+\textbf{Ubicación de cisco IOS}
+
+El IOS se almacena en flash
+\begin{itemize}
+    \item Almacenamiento no volátil: o se pierde cuando se corta alimentación
+    \item Se puede modificar o sobreescribir
+    \item El IOS se copia de la memoria flash a la RAM
+    \item La cantidad de memoria flash y RAM determina qué IOS se puede utilizar
+\end{itemize}
+
+\vspace{1cm}
+
+Funciones de IOS
+\begin{itemize}
+    \item Seguridad
+    \item Administración recursos
+    \item etc
+\end{itemize}
+
+\vspace{1cm}
+
+\textbf{Metodos para Configurar}
+
+\begin{itemize}
+    \item Consola
+    \item TElnet o SSH (conexión remota)
+    \item Puerto auxiliar (puerto fisico)
+\end{itemize}
+
+\vspace{1cm}
+
+\textbf{Modos de funcionamiento de Cisco IOS}
+
+\begin{enumerate}
+    \item Modo usuario: Uso limitado de comandos
+    \item Modo exec privilegiado: Debug commands, reload, configure, etc.
+    \item Configuración global (super sudo): Interfaces, router config, line commands
+          router(password, login, modem commands)
+\end{enumerate}
+
+\vspace{1cm}
+
+\textbf{Some commands}
+\begin{itemize}
+    \item \(\)?: Gives some commands
+    \item enable: Enables mode exec privilegiado
+    \item configure terminal: enables super sudo user
+    \item Show running-config: The one we just made
+    \item show startup-config: Show saved config fpr startup
+    \item hostname <name>: change router name
+    \item write: save config
+\end{itemize}
+
+\end{document}

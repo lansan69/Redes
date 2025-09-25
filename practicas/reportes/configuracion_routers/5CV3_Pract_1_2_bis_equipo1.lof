@@ -1,0 +1,12 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Configuración de los nombres de Routers}}{3}{figure.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Configuración de la interfaz Fa0/0 y Se0/0/0 de R1-ISP}}{4}{figure.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Resultado de configuración de la interfaz Fa0/0 y Se0/0/0 de R1-ISP}}{4}{figure.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Configuración de la interfaz Fa0/0 y Se0/0/0 de R2-Central}}{5}{figure.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Resultado de configuración de la interfaz Fa0/0 y Se0/0/0 de R2-Central}}{5}{figure.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Esquema de conexiones de la red e IP's propuestas}}{6}{figure.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Establecimiento de contraseña y banner para R1-ISP}}{7}{figure.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Visualización de la contraseña establecida con \emph {enable secret class}}}{8}{figure.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Visualización de la contraseña establecida con \emph {password cisco}}}{8}{figure.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Visualización de banner y de solicitud de password al configurar router}}{8}{figure.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Prueba de conexión con el icono de mensaje de Packet Tracer}}{9}{figure.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Prueba de conexión con el comando \emph {ping}}}{10}{figure.12}%
