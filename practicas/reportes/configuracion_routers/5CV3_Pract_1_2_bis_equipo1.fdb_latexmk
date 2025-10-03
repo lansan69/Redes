@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber 5CV3_Pract_1_2_bis_equipo1"] 0 "5CV3_Pract_1_2_bis_equipo1.bcf" "5CV3_Pract_1_2_bis_equipo1.bbl" "5CV3_Pract_1_2_bis_equipo1" 1758736321.0953 0
+["biber 5CV3_Pract_1_2_bis_equipo1"] 0 "5CV3_Pract_1_2_bis_equipo1.bcf" "5CV3_Pract_1_2_bis_equipo1.bbl" "5CV3_Pract_1_2_bis_equipo1" 1759271150.48539 0
   "5CV3_Pract_1_2_bis_equipo1.bcf" 0 -1 0 "pdflatex"
   "referencias.bib" 0 -1 0 ""
   (generated)
   "5CV3_Pract_1_2_bis_equipo1.bbl"
   "5CV3_Pract_1_2_bis_equipo1.blg"
   (rewritten before read)
-["pdflatex"] 1758736319.18921 "/home/lansan69/Escuela/redes/practicas/reportes/configuracion_routers/5CV3_Pract_1_2_bis_equipo1.tex" "5CV3_Pract_1_2_bis_equipo1.pdf" "5CV3_Pract_1_2_bis_equipo1" 1758736321.09575 0
+["pdflatex"] 1759271148.51783 "/home/lansan69/Escuela/redes/practicas/reportes/configuracion_routers/5CV3_Pract_1_2_bis_equipo1.tex" "5CV3_Pract_1_2_bis_equipo1.pdf" "5CV3_Pract_1_2_bis_equipo1" 1759271150.48581 0
   "/etc/texmf/web2c/texmf.cnf" 1757197113.96352 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/lansan69/Escuela/redes/practicas/reportes/configuracion_routers/5CV3_Pract_1_2_bis_equipo1.tex" 1758736318.96766 13410 8d29b65b8605a30c08a099a5c4f85065 ""
+  "/home/lansan69/Escuela/redes/practicas/reportes/configuracion_routers/5CV3_Pract_1_2_bis_equipo1.tex" 1759271148.21537 13410 8d29b65b8605a30c08a099a5c4f85065 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1136768653 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1136768653 3584 402da0b29eafbad07963b1224b222f18 ""
@@ -211,13 +211,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1757198866.51423 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1757198937 8211411 898a24fa050a3ecc42a3a7b88868954a ""
-  "5CV3_Pract_1_2_bis_equipo1.aux" 1758736320.79167 3262 b9d66ce54899aee185e1c334cbaf5731 "pdflatex"
+  "5CV3_Pract_1_2_bis_equipo1.aux" 1759271150.0988 3262 b9d66ce54899aee185e1c334cbaf5731 "pdflatex"
   "5CV3_Pract_1_2_bis_equipo1.bbl" 0 -1 0 "biber 5CV3_Pract_1_2_bis_equipo1"
-  "5CV3_Pract_1_2_bis_equipo1.lof" 1758736320.79692 1567 f6767b3fe3f289b63bbeb73a8f4ee14c "pdflatex"
-  "5CV3_Pract_1_2_bis_equipo1.out" 1758736320.79367 1466 cfc3b522513b3f968f4717d0d5a2a3a0 "pdflatex"
-  "5CV3_Pract_1_2_bis_equipo1.run.xml" 1758736320.79692 2460 9ca0be44a7036807ab21f2fa1263edd4 "pdflatex"
-  "5CV3_Pract_1_2_bis_equipo1.tex" 1758736318.96766 13410 8d29b65b8605a30c08a099a5c4f85065 ""
-  "5CV3_Pract_1_2_bis_equipo1.toc" 1758736320.79692 663 a5aaef62d40909f7fa6423dcf95beedf "pdflatex"
+  "5CV3_Pract_1_2_bis_equipo1.lof" 1759271150.10524 1567 f6767b3fe3f289b63bbeb73a8f4ee14c "pdflatex"
+  "5CV3_Pract_1_2_bis_equipo1.out" 1759271150.1018 1466 cfc3b522513b3f968f4717d0d5a2a3a0 "pdflatex"
+  "5CV3_Pract_1_2_bis_equipo1.run.xml" 1759271150.10524 2460 9ca0be44a7036807ab21f2fa1263edd4 "pdflatex"
+  "5CV3_Pract_1_2_bis_equipo1.tex" 1759271148.21537 13410 8d29b65b8605a30c08a099a5c4f85065 ""
+  "5CV3_Pract_1_2_bis_equipo1.toc" 1759271150.10524 663 a5aaef62d40909f7fa6423dcf95beedf "pdflatex"
   "images/completion.png" 1758693705.67813 60056 551e764291b53c6fcb6124c39d5d211c ""
   "images/config_diagram.png" 1758690325.93114 46005 952ec55fdae5585e19721ce31cd973cd ""
   "images/connectivity_test.png" 1758690384.85234 20898 d7dfa94f2759d6f2e2073d3b9136f9a2 ""
