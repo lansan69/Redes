@@ -59,6 +59,80 @@
 
 \justify
 \section{Objetivos de aprendizaje}
+\begin{itemize}
+    \item Explorar cómo Packet Tracer utiliza el modelo OSI y los protocolos TCP/IP.
+    \item Examinar el procesamiento y contenido de los paquetes.
+\end{itemize}
+
 \section{Desarrollo de la práctica}
+
+\subsection{Introducción}
+En el modo de simulación de Packet Tracer, se puede observar información detallada sobre los paquetes y cómo los dispositivos de red los procesan. Los protocolos TCP/IP comunes modelados en Packet Tracer incluyen DNS, HTTP, TFTP, DHCP, Telnet, TCP, UDP, ICMP e IP. El término \textbf{PDU (Protocol Data Unit)} es una descripción genérica de los segmentos en la capa de transporte, paquetes en la capa de red y tramas en la capa de enlace de datos.
+
+\subsection{Tarea 1: Explorar la interfaz de Packet Tracer}
+
+\subsubsection{Paso 1: Revisar los archivos de ayuda y tutoriales}
+\begin{enumerate}[label=\alph*.]
+    \item En el menú desplegable, elegir \textbf{Help $\rightarrow$ Contents}.
+    \item En la página que se abre, seleccionar \textbf{Operating Modes $\rightarrow$ Simulation Mode}.
+    \item Leer la información sobre el modo de simulación si no se está familiarizado.
+\end{enumerate}
+% \includegraphics[width=0.8\textwidth]{ruta_a_captura}
+
+\subsubsection{Paso 2: Cambiar de Realtime a Simulation Mode}
+\begin{enumerate}[label=\alph*.]
+    \item Ubicar el interruptor en la esquina inferior derecha de la interfaz de PT.
+    \item Hacer clic en el ícono de \textbf{Simulation Mode} para cambiar de Realtime.
+    \item Notar que en Simulation Mode los paquetes se muestran como sobres animados y el tiempo es controlado por eventos.
+\end{enumerate}
+% \includegraphics[width=0.8\textwidth]{ruta_a_captura}
+
+\subsection{Tarea 2: Examinar el contenido y procesamiento de paquetes}
+
+\subsubsection{Paso 1: Crear un paquete y acceder a la ventana de información PDU}
+\begin{enumerate}[label=\alph*.]
+    \item Seleccionar el PC Web Client y abrir la pestaña \textbf{Desktop}.
+    \item Abrir el \textbf{Web Browser} y escribir la IP del servidor web (\texttt{192.168.1.254}).
+    \item Hacer clic en \textbf{Go} para enviar la solicitud HTTP.
+    \item Minimizar la ventana del Web Client y usar el botón \textbf{Capture/Forward} para mostrar eventos de red.
+    \item Hacer clic en el cuadrado de información (Info) del primer paquete en la lista de eventos.
+\end{enumerate}
+% \includegraphics[width=0.8\textwidth]{ruta_a_captura}
+
+\subsubsection{Paso 2: Investigar los algoritmos de los dispositivos en la vista OSI}
+\begin{enumerate}[label=\alph*.]
+    \item Abrir la ventana de información PDU haciendo clic en el sobre del paquete o el cuadrado Info.
+    \item Observar cómo la solicitud HTTP (capa 7) se encapsula en capas 4, 3, 2 y 1.
+    \item Explorar cada capa para ver el algoritmo del dispositivo.
+\end{enumerate}
+% \includegraphics[width=0.8\textwidth]{ruta_a_captura}
+
+\subsubsection{Paso 3: PDU entrantes y salientes}
+\begin{enumerate}[label=\alph*.]
+    \item En la ventana PDU, seleccionar la pestaña \textbf{Outbound PDU Details}.
+    \item Observar el proceso de encapsulación: HTTP $\rightarrow$ TCP $\rightarrow$ IP $\rightarrow$ Ethernet $\rightarrow$ bits.
+    \item Notar las diferencias entre PDU salientes y entrantes según el dispositivo.
+\end{enumerate}
+% \includegraphics[width=0.8\textwidth]{ruta_a_captura}
+
+\subsubsection{Paso 4: Rastreo de paquetes: animación del flujo de paquetes}
+\begin{enumerate}[label=\alph*.]
+    \item Usar \textbf{Capture/Forward} para capturar eventos paso a paso.
+    \item Observar los paquetes HTTP, TCP y ARP mientras atraviesan la red.
+    \item Abrir la ventana PDU en cualquier momento para inspeccionar los paquetes.
+    \item Repetir la animación para predecir e investigar el flujo de paquetes.
+\end{enumerate}
+% \includegraphics[width=0.8\textwidth]{ruta_a_captura}
+
+\section{Conclusiones}
+\begin{itemize}
+    \item \textbf{Barrera Puente Eric Alejandro:}
+    
+
+    \item \textbf{Díaz Villegas Ramón Alexis:}
+
+
+    \item \textbf{Sánchez Gómez Alan Iván:}
+\end{itemize}
 
 \end{document}
