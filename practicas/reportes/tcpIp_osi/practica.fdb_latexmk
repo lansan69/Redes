@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber practica"] 0 "practica.bcf" "practica.bbl" "practica" 1759460421.04513 0
+["biber practica"] 0 "practica.bcf" "practica.bbl" "practica" 1759460610.0582 0
   "practica.bcf" 0 -1 0 "pdflatex"
   "referencias.bib" 0 -1 0 ""
   (generated)
   "practica.bbl"
   "practica.blg"
   (rewritten before read)
-["pdflatex"] 1759460419.38852 "/home/lansan69/projects/Redes/practicas/reportes/tcpIp_osi/practica.tex" "practica.pdf" "practica" 1759460421.04559 0
+["pdflatex"] 1759460608.2871 "/home/lansan69/Escuela/redes/practicas/reportes/tcpIp_osi/practica.tex" "practica.pdf" "practica" 1759460610.0587 0
   "/etc/texmf/web2c/texmf.cnf" 1757197113.96352 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/lansan69/projects/Redes/practicas/reportes/tcpIp_osi/practica.tex" 1759460419.02829 5687 39299286b4cff2ff4bd54461f568b2d2 ""
+  "/home/lansan69/Escuela/redes/practicas/reportes/tcpIp_osi/practica.tex" 1759460607.9309 5732 0b2d03e4cbe3b39f80f4bcaf4e57c0fb ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1136768653 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1136768653 3584 402da0b29eafbad07963b1224b222f18 ""
@@ -208,13 +208,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1757198866.51423 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1757198937 8211411 898a24fa050a3ecc42a3a7b88868954a ""
-  "practica.aux" 1759460420.59606 2066 f7c345e9a7b2b7966b712a0cd8b500f9 "pdflatex"
+  "practica.aux" 1759460609.58193 2066 f7c345e9a7b2b7966b712a0cd8b500f9 "pdflatex"
   "practica.bbl" 0 -1 0 "biber practica"
-  "practica.lof" 1759460420.5708 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "practica.out" 1759460420.60006 3433 d46b365e3f86af5784e8cf16c454e958 "pdflatex"
-  "practica.run.xml" 1759460420.60471 2334 4482542cb3d3002f7382c513a6e61754 "pdflatex"
-  "practica.tex" 1759460419.02829 5687 39299286b4cff2ff4bd54461f568b2d2 ""
-  "practica.toc" 1759460420.60471 1326 4a33484f2540c6adac22b2cfe1fdc5c2 "pdflatex"
+  "practica.lof" 1759460609.55048 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "practica.out" 1759460609.58293 3433 d46b365e3f86af5784e8cf16c454e958 "pdflatex"
+  "practica.run.xml" 1759460609.58723 2334 4482542cb3d3002f7382c513a6e61754 "pdflatex"
+  "practica.tex" 1759460607.9309 5732 0b2d03e4cbe3b39f80f4bcaf4e57c0fb ""
+  "practica.toc" 1759460609.58723 1326 4a33484f2540c6adac22b2cfe1fdc5c2 "pdflatex"
   (generated)
   "practica.aux"
   "practica.bcf"
